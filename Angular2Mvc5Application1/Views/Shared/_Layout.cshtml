@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TodoList Sample</title>
+    <title>Angular 2 Quickstart</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <header>
+    @*<header>
         <div>
             <a href="@Url.Action("Index", "Home")">
                 <i class="glyphicon glyphicon-tasks"></i>&nbsp;TodoList Sample Application
@@ -18,13 +18,13 @@
             @RenderSection("title", required: false)
         </div>
         <div></div>
-    </header>
+    </header>*@
     <main>
         @RenderBody()
     </main>
-    <footer>
+    @*<footer>
         <p>&copy; @DateTime.Now.Year - TodoList Sample</p>
-    </footer>
+    </footer>*@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
