@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Models
 {
-    [TypeLite.TsClass]
+    
     public class Hero
     {
         public int Id { get; set; }

@@ -11,12 +11,13 @@
 <# var manager = Manager.Create(Host, GenerationEnvironment); #>
 
 <# var ts = TypeScript.Definitions()
-                      .WithReference("Enums.ts")
-                      .ForLoadedAssemblies()
-                      .WithMemberFormatter((identifier) => Char.ToLower(identifier.Name[0]) + identifier.Name.Substring(1)
+               .WithReference("Enums.ts")
+               //.ForLoadedAssemblies()
+               .For<Models.Hero>()
+               .WithMemberFormatter((identifier) => Char.ToLower(identifier.Name[0]) + identifier.Name.Substring(1)
    );
 		 
-#>
+#> 
 
 <#= ts.Generate(TsGeneratorOutput.Properties) #>
 

@@ -3,11 +3,12 @@
  
 
  
+ 
 
 /// <reference path="Enums.ts" />
 
 declare module Models {
-	export interface Hero {
+	interface Hero {
 		id: number;
 		name: string;
 	}

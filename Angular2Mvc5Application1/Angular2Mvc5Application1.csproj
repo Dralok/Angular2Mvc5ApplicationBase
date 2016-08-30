@@ -167,6 +167,13 @@
     <Compile Include="Models\Validation\ModelStateWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.component.css" />
+    <Content Include="app\dashboard.component.css" />
+    <Content Include="app\dashboard.component.html" />
+    <Content Include="app\hero-detail.component.css" />
+    <Content Include="app\hero-detail.component.html" />
+    <Content Include="app\heroes.component.css" />
+    <Content Include="app\heroes.component.html" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\styles.css" />
@@ -235,8 +242,14 @@
     <TypeScriptCompile Include="app.todolist\services\app.service.todolist.ts" />
     <TypeScriptCompile Include="app.todolist\utils\HttpHelpers.ts" />
     <TypeScriptCompile Include="app\app.component.ts" />
+    <TypeScriptCompile Include="app\app.routing.ts" />
+    <TypeScriptCompile Include="app\dashboard.component.ts" />
+    <TypeScriptCompile Include="app\heroes.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\hero-detail.component.ts" />
+    <TypeScriptCompile Include="app\hero.service.ts" />
     <TypeScriptCompile Include="app\main.ts" />
+    <TypeScriptCompile Include="app\mock-heroes.ts" />
     <TypeScriptCompile Include="Scripts\Enums.ts">
       <DependentUpon>TypeLite.Net4.tt</DependentUpon>
     </TypeScriptCompile>
