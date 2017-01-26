@@ -13,12 +13,12 @@ namespace Angular2Mvc5Application1
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-        
-            //routes.MapRoute(
-            //    name: "api",
-            //    url: "api/{controller}/{action}/{id}",
-            //    defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            //);
+
+            routes.MapRoute(
+                name: "heroApi",
+                url: "api/{controller}/{action}/{id}",
+                defaults: new { controller = "Hero", action = "Index", id = UrlParameter.Optional }
+            );
 
             routes.MapRoute(
             name: "Default",

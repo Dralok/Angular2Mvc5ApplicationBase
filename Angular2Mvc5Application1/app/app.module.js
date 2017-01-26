@@ -14,10 +14,10 @@ var forms_1 = require('@angular/forms');
 var http_1 = require('@angular/http');
 var app_routing_1 = require('./app.routing');
 var app_component_1 = require('./app.component');
-var hero_service_1 = require('./hero.service');
-var heroes_component_1 = require('./heroes.component');
-var dashboard_component_1 = require('./dashboard.component');
-var hero_detail_component_1 = require('./hero-detail.component');
+var hero_service_1 = require('./hero/hero.service');
+var heroes_component_1 = require('./hero/heroes.component');
+var hero_dashboard_component_1 = require('./hero/hero-dashboard.component');
+var hero_detail_component_1 = require('./hero/hero-detail.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -33,7 +33,7 @@ var AppModule = (function () {
                 app_component_1.AppComponent,
                 heroes_component_1.HeroesComponent,
                 hero_detail_component_1.HeroDetailComponent,
-                dashboard_component_1.DashboardComponent
+                hero_dashboard_component_1.HeroDashboardComponent
             ],
             bootstrap: [app_component_1.AppComponent],
             providers: [hero_service_1.HeroService]
