@@ -56,8 +56,8 @@ var HeroesComponent = (function () {
             //    <button (click)="gotoDetail()">View Details</button>
             //</div>
             //`,
-            templateUrl: 'app/heroes.component.html',
-            styleUrls: ['app/heroes.component.css']
+            templateUrl: './app/hero/heroes.component.html',
+            styleUrls: ['./app/hero/heroes.component.css']
         }), 
         __metadata('design:paramtypes', [hero_service_1.HeroService, router_1.Router])
     ], HeroesComponent);

@@ -24,8 +24,8 @@ import { HeroService } from './hero.service';
 //</div>
 
 //`,
-    templateUrl: 'app/heroes.component.html',
-    styleUrls: ['app/heroes.component.css']
+    templateUrl: './app/hero/heroes.component.html',
+    styleUrls: ['./app/hero/heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
 
